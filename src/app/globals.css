@@ -1,0 +1,27 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --background: #171717;
+  --foreground: #ffffff;
+  --font-josefin: 'Josefin Sans', sans-serif;
+  --font-noto-sans-kr: 'Noto Sans KR', sans-serif;
+}
+
+body {
+  color: var(--foreground);
+  background: var(--background);
+  font-family: var(--font-josefin), var(--font-noto-sans-kr), sans-serif;
+}
+
+/* 한글만 Gothic A1로 */
+@font-face {
+  font-family: 'Noto Sans KR';
+  unicode-range: U+AC00-D7A3; /* 한글 유니코드 범위 */
+}
+/* 영문만 Josefin으로 */
+@font-face {
+  font-family: 'Josefin Sans';
+  unicode-range: U+0000-00FF; /* 기본 영문자 */
+}
