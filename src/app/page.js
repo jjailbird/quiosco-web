@@ -6,8 +6,7 @@ export default function Home() {
       <div className='absolute inset-0 bg-black/70'></div>
       <div className='relative container mx-auto bg-white/0 flex justify-center items-center min-h-screen z-10'>
         <div className='text-4xl uppercase items-center flex flex-col font-light'>
-          <div>text</div>
-          <div>quiosco.WEB 2025</div>
+          <div>quiosco.</div>
           <div>
             Meet a New Experience
           </div>
