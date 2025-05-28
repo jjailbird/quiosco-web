@@ -13,8 +13,8 @@ export default {
         sm: '100%',    // sm 이상에서 100%
         md: '720px',   // md 이상에서 720px
         lg: '960px',   // lg 이상에서 960px
-        xl: '1350px',  // xl 이상에서 1140px
-        '2xl': '1350px' // 2xl 이상에서 1320px
+        xl: '1200px',  // xl 이상에서 1140px
+        '2xl': '1200px' // 2xl 이상에서 1320px
       }
     },
     extend: {

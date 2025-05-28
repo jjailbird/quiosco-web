@@ -2,18 +2,30 @@ import Image from "next/image";
 
 export default function About() {
   return (
-    <div className='w-full bg-[url(/img/bg/bg_03.jpg)] bg-cover bg-center relative'>
-      <div className='absolute inset-0 bg-black/70'></div>
-      <div className='relative container mx-auto bg-white/0 flex justify-center items-center min-h-screen z-10'>
-        <div className='text-2xl uppercase items-center flex flex-col font-light'>
-          Quiosco is a specialized company in kiosk software development and branding consulting, delivering software solutions for photo booths, unmanned payment systems, table ordering, and exhibition promotion guides.
-          Our team of top industry developers supplies software to a variety of kiosk brands, and with extensive know-how and experience, we are currently preparing to launch our own brand.
+    <>
 
-          Quiosco aims to establish itself not as a short-lived trend but as a cultural staple, offering differentiated and unique solutions in the rapidly changing market.
-          Through innovative products and proprietary systems, we stand out from other kiosks by delivering the highest level of technology and continuously evolving.
-          We promise to deliver the distinct “specialness” that only Quiosco can offer. Join us as a leader in creating a kiosk culture where customers can enjoy photos easily in a relaxed atmosphere.
+      <div className='w-full bg-[url(/img/office_1.jpg)] bg-cover bg-center relative bg-fixed'>
+        <div className='absolute inset-0 bg-black/70'></div>
+        <div className='relative container mx-auto bg-white/0 flex justify-center items-center min-h-screen z-10'>
+          <div className='text-2xl items-center flex flex-col font-light space-y-3'>
+            <div>
+              Quiosco is a specialized company in kiosk software development and branding consulting, delivering solutions such as photo booths, unmanned payment systems, table ordering, and exhibition information kiosks.
+            </div>
+            <div>
+              With a team of top-tier developers in the industry, we supply software to various kiosk brands and are preparing to launch our own brand based on extensive know-how and experience.
+            </div>
+            <div>
+              Quiosco aims to establish itself not as a short-term trend, but as a cultural staple, offering unique value in the midst of rapidly changing trends.
+            </div>
+            <div>
+              We differentiate ourselves through distinctive features and proprietary systems, continuously evolving with state-of-the-art technology that sets us apart from other kiosks.
+            </div>
+            <div>
+              We are here to deliver the unique charm of Quiosco. Join us as we lead the kiosk culture where people can effortlessly enjoy photography in a relaxed and welcoming atmosphere.
+            </div>
+          </div>
         </div>
       </div>
-    </div>
+    </>
   );
 }
