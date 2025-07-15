@@ -14,7 +14,7 @@ export default function Menus() {
         <Link href={'/photo'}>Photo Kiosk</Link>
       </li>
       <li>
-        <Link href={'/bespoke'}>Bespoke</Link>
+        <Link href={'/custom'}>Custom Solutions</Link>
       </li>
       <li>
         <Link href={'/contact'}>Contact</Link>
