@@ -5,16 +5,19 @@ export default function Menus() {
   return (
     <ul className='fixed top-16 right-16 text-right space-y-3 uppercase z-20'>
       <li>
-        <Link href={'/'}>quisco</Link>
+        <Link href={'/'}>Home</Link>
       </li>
       <li>
-        <Link href={'/about'}>about</Link>
+        <Link href={'/about'}>Quiosco</Link>
       </li>
       <li>
-        <Link href={'/photo-booth'}>photo booth</Link>
+        <Link href={'/photo'}>Photo Kiosk</Link>
       </li>
       <li>
-        <Link href={'/contact'}>contact</Link>
+        <Link href={'/bespoke'}>Bespoke</Link>
+      </li>
+      <li>
+        <Link href={'/contact'}>Contact</Link>
       </li>
     </ul>
   )
