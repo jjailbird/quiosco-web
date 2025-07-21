@@ -14,19 +14,19 @@ export default function Menus() {
       {/* router.isReady가 true일 때만 pathname을 표시합니다. */}
       <li className='flex items-baseline justify-end space-x-2'>
         {/* isActive 함수 결과에 따라 div 조건부 렌더링 */}
-        {isActive('/about') && <div className='w-3 h-[1px] bg-white'></div>}
+        {isActive('/about') && <div className='w-3 h-[1px] bg-white animate-pulse'></div>}
         <Link href={'/about'}>About</Link>
       </li>
       <li className='flex items-baseline justify-end space-x-2'>
-        {isActive('/photo') && <div className='w-3 h-[1px] bg-white'></div>}
+        {isActive('/photo') && <div className='w-3 h-[1px] bg-white animate-pulse'></div>}
         <Link href={'/photo'}>Photo Booth</Link>
       </li>
       <li className='flex items-baseline justify-end space-x-2'>
-        {isActive('/custom') && <div className='w-3 h-[1px] bg-white'></div>}
+        {isActive('/custom') && <div className='w-3 h-[1px] bg-white animate-pulse'></div>}
         <Link href={'/custom'}>Custom Solutions</Link>
       </li>
       <li className='flex items-baseline justify-end space-x-2'>
-        {isActive('/contact') && <div className='w-3 h-[1px] bg-white'></div>}
+        {isActive('/contact') && <div className='w-3 h-[1px] bg-white animate-pulse'></div>}
         <Link href={'/contact'}>Contact</Link>
       </li>
     </ul>
