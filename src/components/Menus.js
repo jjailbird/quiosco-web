@@ -19,7 +19,7 @@ export default function Menus() {
       </li>
       <li className='flex items-baseline justify-end space-x-2'>
         {isActive('/photo') && <div className='w-3 h-[1px] bg-white animate-pulse'></div>}
-        <Link href={'/photo'}>Photo Booth</Link>
+        <Link href={'/photo'}>Photo Kiosk</Link>
       </li>
       <li className='flex items-baseline justify-end space-x-2'>
         {isActive('/custom') && <div className='w-3 h-[1px] bg-white animate-pulse'></div>}
