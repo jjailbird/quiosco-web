@@ -1,5 +1,6 @@
 import Link from 'next/link';
 import "./globals.css";
+import "./quiosco.css";
 import { Josefin_Sans } from 'next/font/google'
 import { Noto_Sans_KR } from 'next/font/google'
 import Logo from '@/components/Logo';
