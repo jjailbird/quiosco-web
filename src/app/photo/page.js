@@ -414,36 +414,48 @@ export default function Photo() {
                   <div className='text-sm text-green-500'>Popular</div>
                 </div>
                 <div className='text-sm font-semibold'>
-                  신규 창업자, 소규모 비즈니스, 포토 키오스크 도입을 시도하는 고객
+                  확장 계획이 있는 프랜차이즈, 중소기업, 다양한 기능 활용이 필요한 고객
                 </div>
                 <div className='text-2xl flex items-baseline space-x-4'>
-                  <div className='text-4xl font-semibold'>₩150,000 </div>
+                  <div className='text-4xl font-semibold'>₩250,000 </div>
                   <div className='text-sm font-normal'>/month</div>
                 </div>
                 <ul className='text-sm font-bold space-y-2'>
                   <li className='flex items-center gap-x-4'>
                     <Icon icon="pajamas:check" width="20" height="20" />
-                    <div>기본 포토 키오스크 기능</div>
+                    <div>
+                      Starter의 모든 기능 포함
+                    </div>
                   </li>
                   <li className='flex items-center gap-x-4'>
                     <Icon icon="pajamas:check" width="20" height="20" />
-                    <div>표준 템플릿 제공</div>
+                    <div>
+                      AI 필터, 포토샵 연동 기능
+                    </div>
                   </li>
                   <li className='flex items-center gap-x-4'>
                     <Icon icon="pajamas:check" width="20" height="20" />
-                    <div>QR 코드 기반 온라인 연동</div>
+                    <div>
+                      향상된 통계 및 매출 관리
+                    </div>
                   </li>
                   <li className='flex items-center gap-x-4'>
                     <Icon icon="pajamas:check" width="20" height="20" />
-                    <div>기본 통계 및 매출 관리 (PC/모바일)</div>
+                    <div>
+                      원격 머신 관리
+                    </div>
                   </li>
                   <li className='flex items-center gap-x-4'>
                     <Icon icon="pajamas:check" width="20" height="20" />
-                    <div>기본 기술 지원</div>
+                    <div>
+                      프리미엄 템플릿 제공
+                    </div>
                   </li>
                   <li className='flex items-center gap-x-4'>
                     <Icon icon="pajamas:check" width="20" height="20" />
-                    <div>제한적 소프트웨어 커스터마이징</div>
+                    <div>
+                      소프트웨어 커스터마이징
+                    </div>
                   </li>
                 </ul>
               </div>
@@ -453,36 +465,41 @@ export default function Photo() {
                   <div></div>
                 </div>
                 <div className='text-sm font-semibold'>
-                  신규 창업자, 소규모 비즈니스, 포토 키오스크 도입을 시도하는 고객
+                  대기업, 관공서, 대규모 프랜차이즈, 독점적인 맞춤형 개발이 필요한 고객
                 </div>
                 <div className='text-2xl flex items-baseline space-x-4'>
-                  <div className='text-4xl font-semibold'>₩150,000 </div>
-                  <div className='text-sm font-normal'>/month</div>
+                  <div className='text-4xl font-semibold'>별도 문의 </div>
                 </div>
                 <ul className='text-sm font-bold space-y-2'>
                   <li className='flex items-center gap-x-4'>
                     <Icon icon="pajamas:check" width="20" height="20" />
-                    <div>기본 포토 키오스크 기능</div>
+                    <div>
+                      Pro의 모든 기능 포함
+                    </div>
                   </li>
                   <li className='flex items-center gap-x-4'>
                     <Icon icon="pajamas:check" width="20" height="20" />
-                    <div>표준 템플릿 제공</div>
+                    <div>
+                      최고 수준의 AI 및 연동 기술 적용
+                    </div>
                   </li>
                   <li className='flex items-center gap-x-4'>
                     <Icon icon="pajamas:check" width="20" height="20" />
-                    <div>QR 코드 기반 온라인 연동</div>
+                    <div>
+                      맞춤형 데이터 분석 및 리포트
+                    </div>
                   </li>
                   <li className='flex items-center gap-x-4'>
                     <Icon icon="pajamas:check" width="20" height="20" />
-                    <div>기본 통계 및 매출 관리 (PC/모바일)</div>
+                    <div>
+                      전담 기술 지원
+                    </div>
                   </li>
                   <li className='flex items-center gap-x-4'>
                     <Icon icon="pajamas:check" width="20" height="20" />
-                    <div>기본 기술 지원</div>
-                  </li>
-                  <li className='flex items-center gap-x-4'>
-                    <Icon icon="pajamas:check" width="20" height="20" />
-                    <div>제한적 소프트웨어 커스터마이징</div>
+                    <div>
+                      독점적인 기능 개발 및 통합
+                    </div>
                   </li>
                 </ul>
               </div>
