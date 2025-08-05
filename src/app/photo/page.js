@@ -364,8 +364,12 @@ export default function Photo() {
               <div className='text-8xl font-black'>
                 Price
               </div>
-              <div className='text-2xl font-bold'>
-                가격정책
+              <div className='text-2xl font-bold flex justify-between items-start'>
+                <div>
+                  <div>가격정책</div>
+                  <div>월결제</div>
+                </div>
+                <div>toggle</div>
               </div>
             </div>
             <div className='grid grid-cols-3 gap-10'>
