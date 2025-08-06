@@ -6,6 +6,7 @@ import { Noto_Sans_KR } from 'next/font/google'
 import Logo from '@/components/Logo';
 import Menus from '@/components/Menus';
 import CopyInfo from '@/components/CopyInfo';
+import Canvas from '@/components/Canvas';
 
 // 영어용 폰트
 const josefin = Josefin_Sans({
@@ -30,6 +31,7 @@ export default function RootLayout({ children }) {
   return (
     <html lang="ko" className={`${josefin.variable} ${notoSansKr.variable}`}>
       <body className='relative'>
+        <Canvas />
         <Logo />
         <Menus />
         {children}
