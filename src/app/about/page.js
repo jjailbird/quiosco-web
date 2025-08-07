@@ -14,9 +14,9 @@ export default function About() {
           <div className='container mx-auto  text-4xl  space-y-10 bg-black/0'>
             <div className='text-6xl text-center space-y-6 uppercase'>
               <div className='flex justify-center'>
-                <img src="/img/logo/new-logo-w-horizon.png" alt="" />
+                <img src="/img/logo/new-logo-w-horizon.png" alt="" className='w-[60%] lg:w-auto' />
               </div>
-              <div className='text-2xl font-semibold'>
+              <div className='text-lg lg:text-2xl font-semibold'>
                 <p>
                   Quiosco는 키오스크 소프트웨어 제작 및 브랜딩 컨설팅 전문 기업입니다.
                 </p>
@@ -24,7 +24,7 @@ export default function About() {
                   포토부스, 무인 결제, 테이블 주문, 전시 홍보 안내 등 다양한 키오스크 소프트웨어를 개발 및 납품합니다.
                 </p>
               </div>
-              <div className='text-lg text-center'>
+              <div className='text-sm lg:text-lg text-center'>
                 <p>키오스코는 단기간 유행이 아닌 문화 자체로 자리매김하며, 빠르게 변화하는 트렌드 속에서 차별화된 특별함을 제공합니다.</p>
                 <p>
                   이색적인 아이템과 독자적인 시스템을 통해 다른 키오스크와 다르게 최고의 기술력으로 선보이며 발전하고 있습니다.
@@ -46,12 +46,12 @@ export default function About() {
         {/* Our Journey Section */}
         <section className='relative min-h-screen flex justify-center items-center py-40'>
           <div className='container mx-auto  text-4xl  space-y-10 bg-black/0'>
-            <div className='text-6xl text-center space-y-4 uppercase'>
+            <div className='text-4xl lg:text-6xl text-center space-y-4 uppercase'>
               <div>Our Journey</div>
-              <div className='text-3xl font-semibold'>
+              <div className='text-xl lg:text-3xl font-semibold'>
                 모든 아이디어를 현실로, 디지털 경험을 선사합니다.
               </div>
-              <div className='text-xl text-center space-y-2'>
+              <div className='text-lg lg:text-xl text-center space-y-2'>
                 <p>우리는 복잡한 기술과 막대한 초기 투자 때문에 좌절되는 수많은 비즈니스 아이디어를 보며,</p>
                 <p>누구나 혁신적인 키오스크 브랜드를 쉽게 시작하고 성공할 수 있는 길을 열고자 했습니다. </p>
                 <p>
@@ -65,14 +65,14 @@ export default function About() {
         {/* Our Core Competencies Section */}
         <section className='relative min-h-screen flex justify-center items-center py-40'>
           <div className='container mx-auto  text-4xl  space-y-10 bg-black/0'>
-            <div className='text-6xl text-center space-y-4 uppercase'>
+            <div className='text-4xl lg:text-6xl text-center space-y-4 uppercase'>
               <div>
                 Our Core Competencies
               </div>
-              <div className='text-3xl font-semibold'>
+              <div className='text-xl lg:text-3xl font-semibold'>
                 키오스크의 미래를 주도하는 핵심 기술 역량
               </div>
-              <div className='text-xl text-center space-y-2'>
+              <div className='text-lg lg:text-xl text-center space-y-2'>
                 <p>우리는 새로운 기술을 빠르게 적용하고 시대의 트렌드에 맞춰가는 기술 역량 개발에 집중합니다.</p>
                 <p>AI 뷰티 필터, 직관적인 UI/UX, 강력한 통합 관리 시스템 등 혁신적인 소프트웨어를 직접 개발하여 키오스크에 생명을 불어넣습니다.</p>
                 <p>하드웨어 및 부스 제작은 각 분야 최고의 전문 파트너사와 긴밀한 협력을 통해 최고 품질을 보장합니다.</p>
@@ -85,13 +85,13 @@ export default function About() {
         {/* Our Values Section */}
         <section className='relative min-h-screen flex justify-center items-center py-40'>
           <div className='container mx-auto  text-4xl  space-y-10 bg-black/0'>
-            <div className='text-6xl text-center space-y-2 uppercase'>
+            <div className='text-4xl lg:text-6xl text-center space-y-2 uppercase'>
               <div>Our Values</div>
-              <div className='text-3xl font-semibold'>
+              <div className='text-xl lg:text-3xl font-semibold'>
                 Quiosco를 움직이는 핵심 가치들.
               </div>
             </div>
-            <div className='grid grid-cols-2 gap-10'>
+            <div className='grid grid-cols-1 lg:grid-cols-2 gap-10'>
               <div className='bg-white/10 backdrop-blur-sm rounded-2xl p-10 space-y-5'>
                 <div>
                   <div className='text-4xl'>
@@ -151,7 +151,7 @@ export default function About() {
         {/* Our Team Section (hidden) */}
         <section className='relative min-h-screen flex justify-center items-center py-40 hidden'>
           <div className='container mx-auto  text-4xl  space-y-10 bg-black/0'>
-            <div className='text-6xl text-center space-y-2 uppercase'>
+            <div className='text-4xl lg:text-6xl text-center space-y-2 uppercase'>
               <div>Our Team</div>
             </div>
             <div className='text-xl text-center space-y-10'>
@@ -189,13 +189,13 @@ export default function About() {
             </video>
           </div>
           <div className='container mx-auto  text-4xl space-y-10 bg-black/0 z-20'>
-            <div className='text-6xl text-center space-y-2 uppercase'>
+            <div className='text-4xl lg:text-6xl text-center space-y-2 uppercase'>
               <div>Our Commitment</div>
-              <div className='text-3xl font-semibold uppercase'>
+              <div className='text-xl lg:text-3xl font-semibold uppercase'>
                 당신의 성공을 향한 Quiosco의 약속.
               </div>
             </div>
-            <div className='text-xl text-center space-y-1'>
+            <div className='text-lg lg:text-xl text-center space-y-1'>
               <p>
                 Quiosco는 당신의 키오스크 비즈니스 여정이 성공적일 수 있도록,
               </p>

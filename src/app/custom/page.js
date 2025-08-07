@@ -13,10 +13,10 @@ export default function Custom() {
           <div className='container mx-auto  text-4xl  space-y-10 bg-black/0'>
             <div className='text-center space-y-5'>
               <div>
-                <div className='text-7xl font-black'>
+                <div className='text-4xl lg:text-7xl font-black'>
                   DEVELOPMENT
                 </div>
-                <div className='text-2xl'>
+                <div className='text-xl lg:text-2xl'>
                   당신의 비즈니스 아이디어를 현실로 만듭니다
                 </div>
               </div>
@@ -34,7 +34,7 @@ export default function Custom() {
         <section className='relative min-h-screen flex justify-center items-center py-40'>
           <div className='container mx-auto  text-4xl  space-y-10 bg-black/0'>
             <div className='text-center space-y-5'>
-              <div className='text-5xl font-black'>
+              <div className='text-4xl lg:text-5xl font-black'>
                 <div>
                   SERVICE
                 </div>
@@ -46,7 +46,7 @@ export default function Custom() {
               </div>
             </div>
             <div className='max-w-[1000px] mx-auto'>
-              <div className='grid grid-cols-2 place-items-start gap-10'>
+              <div className='grid grid-cols-1 lg:grid-cols-2 place-items-start gap-10'>
                 <div className='relative aspect-[1/1.1] bg-black w-full rounded-2xl bg-cover bg-center bg-[url(/img/asset/custom_web.jpg)] overflow-hidden'>
                   <div className='absolute inset-0 z-10 bg-black/80 text-white'>
                     <div className='p-10 space-y-10 h-full flex flex-col justify-between'>
@@ -123,7 +123,7 @@ export default function Custom() {
         <section className='relative min-h-screen flex justify-center items-center py-40'>
           <div className='container mx-auto  text-4xl  space-y-10 bg-black/0'>
             <div className='text-center space-y-5'>
-              <div className='text-5xl font-black'>
+              <div className='text-4xl lg:text-5xl font-black'>
                 <div>
                   PROCESS
                 </div>
@@ -134,7 +134,7 @@ export default function Custom() {
                 </div>
               </div>
             </div>
-            <div className='grid grid-cols-4 gap-10'>
+            <div className='grid grid-cols-1 lg:grid-cols-4 gap-10'>
               <div className='aspect-square w-full bg-white text-black rounded-2xl flex justify-center items-center'>
                 <div className='text-center text-lg p-5 space-y-5'>
                   <div className='text-4xl font-black'>1.</div>
@@ -185,12 +185,12 @@ export default function Custom() {
         <section className='relative min-h-screen flex justify-center items-center py-40'>
           <div className='container mx-auto  text-4xl  space-y-10 bg-black/0'>
             <div className='text-center space-y-5'>
-              <div className='text-5xl font-black'>
+              <div className='text-4xl lg:text-5xl font-black'>
                 <div>
                   Let's Connect
                 </div>
               </div>
-              <div className='text-xl'>
+              <div className='text-lg lg:text-xl'>
                 <div>
                   당신의 아이디어를 들려주세요 어떤 프로젝트든 상관없습니다.
                 </div>

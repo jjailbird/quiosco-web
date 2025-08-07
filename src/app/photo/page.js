@@ -22,12 +22,12 @@ export default function Photo() {
       <div className='relative w-full bg-white/0 z-10'>
         <section className='relative min-h-screen flex justify-center items-center py-40'>
           <div className='container mx-auto  text-4xl  space-y-10 bg-black/0'>
-            <div className='grid grid-cols-2 place-items-start gap-10'>
+            <div className='grid grid-cols-1 lg:grid-cols-2 place-items-start gap-10'>
               <div className='space-y-3'>
-                <div className='text-8xl font-black'>
+                <div className='text-4xl lg:text-8xl font-black'>
                   Photo Kiosk
                 </div>
-                <div className='text-3xl font-bold'>
+                <div className='text-xl lg:text-3xl font-bold'>
                   성장하는 비즈니스를 위한 최적의 맞춤형 포토 키오스크 솔루션
                 </div>
                 <div className='text-lg'>
@@ -45,14 +45,14 @@ export default function Photo() {
         </section>
         <section className='relative min-h-screen flex justify-center items-center py-40'>
           <div className='container mx-auto text-4xl space-y-10 bg-black/0'>
-            <div className='grid grid-cols-2 place-items-start gap-10'>
+            <div className='grid grid-cols-1 lg:grid-cols-2 place-items-start gap-10'>
               <div className='bg-black aspect-square w-full rounded-2xl bg-[url(/img/asset/custom1.jpg)] bg-cover bg-center'>
               </div>
               <div className='space-y-3'>
-                <div className='text-8xl font-black'>
+                <div className='text-4xl lg:text-8xl font-black'>
                   customize
                 </div>
-                <div className='text-4xl font-bold'>
+                <div className='text-xl lg:text-4xl font-bold'>
                   포토 키오스크 비즈니스를 위한 최적의 커스터마이징
                 </div>
                 <div className='text-lg'>
@@ -64,16 +64,16 @@ export default function Photo() {
         </section>
         <section className='relative min-h-screen flex justify-center items-center py-40'>
           <div className='container mx-auto  text-4xl  space-y-10 bg-black/0'>
-            <div className='text-6xl text-center space-y-10 uppercase bg-white/20 text-black p-16 rounded-2xl'>
+            <div className='text-6xl text-center space-y-10 uppercase bg-white/20 text-black p-5 lg:p-16 rounded-2xl'>
               <div className='space-y-3 text-white'>
-                <div className='text-8xl font-black'>
+                <div className='text-4xl lg:text-8xl font-black'>
                   Key Features
                 </div>
-                <div className='text-2xl font-bold'>
+                <div className='text-xl lg:text-2xl font-bold'>
                   Quiosco 솔루션의 핵심 기능
                 </div>
               </div>
-              <div className='grid grid-cols-2 gap-10'>
+              <div className='grid grid-cols-1 lg:grid-cols-2 gap-10'>
                 <div className='overflow-hidden rounded-2xl bg-white'>
                   <img src="/img/asset/feature1.png" alt="" />
                 </div>
@@ -93,69 +93,69 @@ export default function Photo() {
         <section className='relative min-h-screen flex justify-center items-center py-40'>
           <div className='container mx-auto  text-4xl  space-y-10 bg-black/0'>
             <div className='space-y-3'>
-              <div className='text-8xl font-black'>
+              <div className='text-4xl lg:text-8xl font-black'>
                 Technologies
               </div>
-              <div className='text-4xl font-bold'>
+              <div className='text-xl lg:text-4xl font-bold'>
                 최첨단 기술로 경험과 비즈니스를 혁신하는 Quiosco 솔루션
               </div>
             </div>
             <div className='text-xl space-y-10'>
-              <div className='bg-black/0 h-64 rounded-2xl bg-cover bg-center bg-[url(/img/asset/tech_1.jpg)] relative overflow-hidden'>
+              <div className='bg-black/0 h-72 lg:h-64 rounded-2xl bg-cover bg-center bg-[url(/img/asset/tech_1.jpg)] relative overflow-hidden'>
                 <div className='absolute inset-0 space-y-3 bg-black/60 flex items-end'>
                   <div className='p-10 space-y-4'>
-                    <div className='text-4xl font-bold'>
+                    <div className='text-2xl lg:text-4xl font-bold'>
                       AI 필터
                     </div>
-                    <div>
+                    <div className='text-lg lg:text-xl'>
                       다양한 AI 필터를 적용해 사진을 더욱 예술적으로 만듭니다. 그림 AI와 보정 AI를 활용, 다채로운 스타일과 효과로 창의적이고 독창적인 사진을 완성합니다.
                     </div>
                   </div>
                 </div>
               </div>
-              <div className='bg-black/0 h-64 rounded-2xl bg-cover bg-center bg-[url(/img/asset/tech_2.jpg)] relative overflow-hidden'>
+              <div className='bg-black/0 h-72 lg:h-64 rounded-2xl bg-cover bg-center bg-[url(/img/asset/tech_2.jpg)] relative overflow-hidden'>
                 <div className='absolute inset-0 space-y-3 bg-black/60 flex items-end'>
                   <div className='p-10 space-y-4'>
-                    <div className='text-4xl font-bold'>
+                    <div className='text-2xl lg:text-4xl font-bold'>
                       포토샵 연동
                     </div>
-                    <div>
+                    <div className='text-lg lg:text-xl'>
                       포토샵 API 및 ACTION을 연동하여 다양한 표현 기법을 활용할 수 있습니다. 고급 편집 기능으로 사진에 여러 효과, 필터, 조명 조절 등을 쉽게 적용합니다.
                     </div>
                   </div>
                 </div>
               </div>
-              <div className='bg-black/0 h-64 rounded-2xl bg-cover bg-center bg-[url(/img/asset/tech_3.jpg)] relative overflow-hidden'>
+              <div className='bg-black/0 h-72 lg:h-64 rounded-2xl bg-cover bg-center bg-[url(/img/asset/tech_3.jpg)] relative overflow-hidden'>
                 <div className='absolute inset-0 space-y-3 bg-black/60 flex items-end'>
                   <div className='p-10 space-y-4'>
-                    <div className='text-4xl font-bold'>
+                    <div className='text-2xl lg:text-4xl font-bold'>
                       음성 인식
                     </div>
-                    <div>
+                    <div className='text-lg lg:text-xl'>
                       음성 인식 기술을 활용하여 사용자들이 사진을 편리하게 촬영하도록 돕습니다. 음성 명령으로 간편하게 셀카를 찍거나 특정 기능을 활성화하여, 손을 사용하지 않고도 포토부스를 조작할 수 있습니다.
                     </div>
                   </div>
                 </div>
               </div>
-              <div className='bg-black/0 h-64 rounded-2xl bg-cover bg-center bg-[url(/img/asset/tech_4.jpg)] relative overflow-hidden'>
+              <div className='bg-black/0 h-72 lg:h-64 rounded-2xl bg-cover bg-center bg-[url(/img/asset/tech_4.jpg)] relative overflow-hidden'>
                 <div className='absolute inset-0 space-y-3 bg-black/60 flex items-end'>
                   <div className='p-10 space-y-4'>
-                    <div className='text-4xl font-bold'>
+                    <div className='text-2xl lg:text-4xl font-bold'>
                       통계 및 매출 관리
                     </div>
-                    <div>
+                    <div className='text-lg lg:text-xl'>
                       스마트 관리 시스템을 도입, PC나 모바일을 통해 언제 어디서든 통계 및 매출을 편리하게 확인합니다. 실시간 업데이트되는 통계 자료와 매출 내역은 사업자가 효율적으로 관리하도록 지원합니다.
                     </div>
                   </div>
                 </div>
               </div>
-              <div className='bg-black/0 h-64 rounded-2xl bg-cover bg-center bg-[url(/img/asset/tech_5.jpg)] relative overflow-hidden'>
+              <div className='bg-black/0 h-72 lg:h-64 rounded-2xl bg-cover bg-center bg-[url(/img/asset/tech_5.jpg)] relative overflow-hidden'>
                 <div className='absolute inset-0 space-y-3 bg-black/60 flex items-end'>
                   <div className='p-10 space-y-4'>
                     <div className='text-4xl font-bold'>
                       원격 머신 관리
                     </div>
-                    <div>
+                    <div className='text-lg lg:text-xl'>
                       스마트 시스템으로 각 머신에 원격 접속하여 관리할 수 있습니다. 이를 통해 키오스크 작동 상태를 손쉽게 확인하고 필요한 조치를 취할 수 있습니다. 이는 운영 효율성을 높이고 장애 발생 시 빠른 대응을 가능하게 합니다.
                     </div>
                   </div>
@@ -167,10 +167,10 @@ export default function Photo() {
         <section className='relative min-h-screen flex justify-center items-center py-40'>
           <div className='container mx-auto  text-4xl  space-y-10 bg-black/0'>
             <div className='space-y-3'>
-              <div className='text-8xl font-black'>
+              <div className='text-4xl lg:text-8xl font-black'>
                 Use case
               </div>
-              <div className='text-4xl font-bold'>
+              <div className='text-xl lg:text-4xl font-bold'>
                 Quiosco의 혁신적인 기술이 반영되는 비즈니스 케이스
               </div>
             </div>
@@ -184,8 +184,8 @@ export default function Photo() {
                 disableOnInteraction: false, // 사용자 상호작용 후에도 자동 재생 지속
               }}
               // modules={[Navigation, Pagination]} // 필요한 모듈을 여기에 추가
-              spaceBetween={40} // 슬라이드 간 간격 (gap-10과 유사하게 40px로 설정)
-              slidesPerView={3} // 한 번에 3개의 슬라이드 표시
+              //spaceBetween={40} // 슬라이드 간 간격 (gap-10과 유사하게 40px로 설정)
+              //slidesPerView={3} // 한 번에 3개의 슬라이드 표시
               // navigation // 네비게이션 버튼 활성화 (필요시)
               // pagination={{ clickable: true }} // 페이지네이션 활성화 (필요시)
               loop={true} // 무한 루프 (필요시)
@@ -361,10 +361,10 @@ export default function Photo() {
         <section className='relative min-h-screen flex justify-center items-center py-40'>
           <div className='container mx-auto  text-4xl  space-y-10 bg-black/0'>
             <div className='space-y-3 text-white'>
-              <div className='text-8xl font-black'>
+              <div className='text-4xl lg:text-8xl font-black'>
                 Price
               </div>
-              <div className='text-2xl font-bold flex justify-between items-start'>
+              <div className='text-lg lg:text-2xl font-bold flex justify-between items-start'>
                 <div>
                   <div>가격정책</div>
                   <div>월결제</div>
@@ -372,8 +372,8 @@ export default function Photo() {
                 <div>toggle</div>
               </div>
             </div>
-            <div className='grid grid-cols-3 gap-10'>
-              <div className='aspect-[1/1.5] bg-white rounded-xl text-black p-8 space-y-5'>
+            <div className='grid grid-cols-1 lg:grid-cols-3 gap-10'>
+              <div className='aspect-[1/1.3] lg:aspect-[1/1.5] bg-white rounded-xl text-black p-8 space-y-5'>
                 <div className='font-bold text-2xl flex justify-between'>
                   <div className='text-2xl'>starter</div>
                   <div></div>
@@ -412,7 +412,7 @@ export default function Photo() {
                   </li>
                 </ul>
               </div>
-              <div className='aspect-[1/1.5] bg-white rounded-xl text-black p-8 space-y-5'>
+              <div className='aspect-[1/1.3] lg:aspect-[1/1.5] bg-white rounded-xl text-black p-8 space-y-5'>
                 <div className='font-bold text-2xl flex justify-between'>
                   <div className='text-2xl'>Pro</div>
                   <div className='text-sm text-green-500'>Popular</div>
@@ -463,7 +463,7 @@ export default function Photo() {
                   </li>
                 </ul>
               </div>
-              <div className='aspect-[1/1.5] bg-white rounded-xl text-black p-8 space-y-5'>
+              <div className='aspect-[1/1.3] lg:aspect-[1/1.5] bg-white rounded-xl text-black p-8 space-y-5'>
                 <div className='font-bold text-2xl flex justify-between'>
                   <div className='text-2xl'>Enterprise</div>
                   <div></div>

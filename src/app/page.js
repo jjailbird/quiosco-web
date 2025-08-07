@@ -10,7 +10,7 @@ export default function Home() {
       <div className='relative w-full bg-white/0 z-10'>
         <section className='relative min-h-screen flex justify-center items-center'>
           <div className='container mx-auto  text-4xl  space-y-10 bg-black/0'>
-            <div className='text-6xl text-center space-y-2'>
+            <div className='text-2xl lg:text-6xl text-center space-y-2'>
               <div>quiosco.</div>
               <div>
                 Meet a New Experience
@@ -19,7 +19,7 @@ export default function Home() {
                 With one Fingertip.
               </div>
             </div>
-            <div className='text-2xl text-center space-y-1'>
+            <div className='text-lg lg:text-2xl text-center space-y-1'>
               <div>
                 당신만의 키오스크 브랜드를 위한 첫 시작, 키오스코의 손끝에서 현실이 됩니다.
               </div>
@@ -34,13 +34,13 @@ export default function Home() {
         </section>
         <section className='relative min-h-screen flex justify-center items-center'>
           <div className='container mx-auto  text-4xl  space-y-10 bg-black/0'>
-            <div className='text-6xl text-center space-y-2'>
+            <div className='text-4xl lg:text-6xl text-center space-y-2'>
               <div>KIOSK</div>
-              <div className='text-4xl'>
+              <div className='text-xl lg:text-4xl'>
                 당신의 비즈니스를 움직이는 미래
               </div>
             </div>
-            <div className='text-xl text-center'>
+            <div className='text-lg lg:text-xl text-center'>
               <p>키오스크는 단순한 디지털 기기를 넘어섰습니다. </p>
               <p>이제 고객과의 접점을 혁신하고, 운영 효율을 극대화하며, 새로운 비즈니스 가치를 창출하는 핵심 솔루션입니다.</p>
               <p>직관적인 터치스크린 하나로 복잡한 업무를 처리하고, 24시간 고객을 응대하며, 데이터를 통해 비즈니스를 성장시키는 스마트한 미래.</p>
@@ -67,15 +67,15 @@ export default function Home() {
         <section className='relative min-h-screen flex justify-center items-center'>
           <div className='container mx-auto space-y-10 bg-black/0'>
             <div className="bg-black/5 rounded-lg backdrop-blur-none w-full min-h-[500px]  flex flex-col justify-center items-center space-y-10">
-              <div className='text-6xl text-center space-y-2'>
+              <div className='text-4xl lg:text-6xl text-center space-y-2'>
                 <div>
                   WHY QUIOSCO?
                 </div>
-                <div className='text-4xl'>
+                <div className='text-xl lg:text-4xl'>
                   QUIOSCO가 당신의 비즈니스를 특별하게 만드는 이유
                 </div>
               </div>
-              <div className='grid grid-cols-2 gap-10'>
+              <div className='grid grid-cols-1 lg:grid-cols-2 gap-10'>
                 <div className='bg-white/10 backdrop-blur-sm rounded-2xl p-10 space-y-5'>
                   <div className='text-2xl'>
                     1. 생산부터 사후관리까지, 빈틈없는 통합 서비스
