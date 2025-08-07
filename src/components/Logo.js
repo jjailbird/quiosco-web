@@ -9,8 +9,8 @@ export default function Logo() {
   // Zustand 스토어에서 openCanvas 액션을 가져옵니다.
   const { openCanvas } = useUiStore();
   return (
-    <div className='fixed top-0 xl:top-16 left-0 xl:left-16 z-20 bg-black/50 backdrop-blur-lg xl:backdrop-blur-none xl:bg-transparent w-full'>
-      <Link href={'/'} className='hidden xl:block'>
+    <div className='fixed top-0 xl:top-16 left-0 xl:left-16 z-20 bg-black/50 backdrop-blur-lg xl:backdrop-blur-none xl:bg-transparent w-full '>
+      <Link href={'/'} className='hidden xl:inline-block'>
         <img src="/img/logo/new-logo-w-thin.png" alt="" className='w-40' />
       </Link>
       <div className='w-full flex justify-between items-center block xl:hidden p-5 xl:p-0'>
