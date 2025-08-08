@@ -12,6 +12,10 @@ const menus = [
     href: '/custom',
     label: 'Custom Solutions',
   },
+  // {
+  //   href: '/project',
+  //   label: 'project',
+  // },
   {
     href: '/contact',
     label: 'Contact',
