@@ -24,7 +24,7 @@ export default function About() {
                   포토부스, 무인 결제, 테이블 주문, 전시 홍보 안내 등 다양한 키오스크 소프트웨어를 개발 및 납품합니다.
                 </p>
               </div>
-              <div className='text-sm lg:text-lg text-left'>
+              <div className='text-sm lg:text-lg text-center'>
                 <p>키오스코는 단기간 유행이 아닌 문화 자체로 자리매김하며, 빠르게 변화하는 트렌드 속에서 차별화된 특별함을 제공합니다.</p>
                 <p>
                   이색적인 아이템과 독자적인 시스템을 통해 다른 키오스크와 다르게 최고의 기술력으로 선보이며 발전하고 있습니다.
