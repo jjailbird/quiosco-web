@@ -5,6 +5,8 @@ import { usePathname } from 'next/navigation';
 import React from 'react';
 // 메뉴 데이터 파일을 불러옵니다.
 import menus from '@/data/menus';
+import useUiStore from '@/store/uiStore';
+import { Icon } from '@iconify/react';
 
 export default function Menus() {
   const pathname = usePathname();

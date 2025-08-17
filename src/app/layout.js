@@ -7,6 +7,7 @@ import Logo from '@/components/Logo';
 import Menus from '@/components/Menus';
 import CopyInfo from '@/components/CopyInfo';
 import Canvas from '@/components/Canvas';
+import MobileHeader from '@/components/MobileHeader';
 
 // 영어용 폰트
 const josefin = Josefin_Sans({
@@ -32,6 +33,7 @@ export default function RootLayout({ children }) {
     <html lang="ko" className={`${josefin.variable} ${notoSansKr.variable}`}>
       <body className='relative'>
         <Canvas />
+        <MobileHeader />
         <Logo />
         <Menus />
         {children}
