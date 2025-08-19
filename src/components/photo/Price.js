@@ -1,4 +1,5 @@
 import { Icon } from '@iconify/react'
+import Link from 'next/link';
 import React, { useState } from 'react'
 
 export default function Price() {
@@ -124,9 +125,9 @@ export default function Price() {
                 </ul>
               </div>
 
-              <button className={`w-full py-3 font-semibold text-lg rounded-full bg-green-600 text-white`}>
+              <Link href={'/contact'} className={`w-full py-3 font-semibold text-lg rounded-full bg-green-600 text-white`}>
                 문의하기
-              </button>
+              </Link>
             </div>
           ))}
 
