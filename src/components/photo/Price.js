@@ -125,7 +125,7 @@ export default function Price() {
                 </ul>
               </div>
 
-              <Link href={'/contact'} className={`w-full py-3 font-semibold text-lg rounded-full bg-green-600 text-white`}>
+              <Link href={'/contact'} className={`w-full py-3 font-semibold text-lg rounded-full bg-green-600 text-white text-center`}>
                 문의하기
               </Link>
             </div>
