@@ -17,7 +17,7 @@ export default function PricePage() {
   return (
     <div className='w-full relative uppercase font-light'>
       <div className='absolute w-full top-16 left-0 text-center text-white z-10'>Price</div>
-      <div className='fixed inset-0 bg-[url(/img/bg/bg_24.jpg)] bg-cover bg-center '>
+      <div className='fixed inset-0 bg-[url(/img/bg/bg_21.jpg)] bg-cover bg-center '>
         <div className='absolute inset-0 bg-black/80'></div>
       </div>
       <div className='relative w-full bg-white/0 z-10'>
