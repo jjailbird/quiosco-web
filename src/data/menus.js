@@ -9,13 +9,13 @@ const menus = [
     label: 'Photo Kiosk',
   },
   {
+    href: '/price',
+    label: 'Price',
+  },
+  {
     href: '/custom',
     label: 'Custom Solutions',
   },
-  // {
-  //   href: '/project',
-  //   label: 'project',
-  // },
   {
     href: '/contact',
     label: 'Contact',
